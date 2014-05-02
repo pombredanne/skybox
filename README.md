@@ -29,7 +29,7 @@ Then in a separate window, download the latest version of skybox and run it.
 $ wget https://github.com/skybox/skybox/releases/download/v0.1.0/skybox_0.1.0_linux_amd64.tar.gz
 $ tar zxvf skybox_0.1.0_linux_amd64.tar.gz
 $ cd skybox_0.1.0_linux_amd64
-$ ./skybox --data-dir ~/skybox
+$ ./skybox --data-dir ~/sky
 Listening on http://localhost:7000
 ```
 

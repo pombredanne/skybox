@@ -20,7 +20,7 @@ The easiest way to do this is to run it using [Docker](https://www.docker.io/):
 
 ```sh
 $ docker pull skydb/sky-llvm
-$ docker -t -i -p 8585:8585 -v ~/sky:/var/lib/sky:rw skydb/sky-llvm 
+$ docker run -t -i -p 8585:8585 -v ~/sky:/var/lib/sky:rw skydb/sky-llvm 
 ```
 
 Then in a separate window, download the latest version of skybox and run it.
